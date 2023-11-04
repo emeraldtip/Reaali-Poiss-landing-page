@@ -2,7 +2,7 @@
 	animation: fadeIn 5s ease-out;
 	width:80%;
 	margin-top: 5%;
-	margin-bottom: 5%;
+	margin-bottom: 5 	%;
 }
 @keyframes fadeIn {
 	0% {opacity:0;}
@@ -11,6 +11,8 @@
 
 body {
 	background: #1a1c20;
+	background-image: url("blackandyellow.png");
+	background-size:cover;
 	text-align: center;
 }
 
