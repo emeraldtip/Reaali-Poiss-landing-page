@@ -1,6 +1,20 @@
-
-.fade-in {
-    animation: fadeIn 1s;
+.logo {
+	animation: fadeIn 5s ease-out;
+	width:80%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+@keyframes fadeIn {
+	0% {opacity:0;}
+	100% {opacity:1;}
 }
 
-#bg color 1a1c20
+body {
+	background: #1a1c20;
+	text-align: center;
+}
+
+.text{
+	font-family: Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif;
+	color:white;
+}
