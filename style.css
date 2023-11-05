@@ -1,7 +1,7 @@
 .logo {
 	animation: fadeIn 5s ease-out;
 	width:80%;
-	margin-top: 5%;
+	margin-top: 3.5%;
 	margin-bottom: 5 	%;
 }
 @keyframes fadeIn {
@@ -21,3 +21,13 @@ body {
 	color:white;
 	-webkit-text-stroke: 1px #1a1c20;
 }
+
+footer{
+	bottom:0px;
+	text-align:center;
+	width:100%;
+	position:fixed;
+	font-family: Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif;
+	color:white;
+}
+
