@@ -14,6 +14,7 @@ body {
 	background-image: url("blackandyellow.png");
 	background-size:cover;
 	text-align: center;
+	position:relative;
 }
 
 .text{
@@ -21,6 +22,24 @@ body {
 	color:white;
 	-webkit-text-stroke: 1px #1a1c20;
 }
+
+.lehed {
+	font-family: Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif;
+	display: table;
+	table-layout: fixed; /*force equal column width */
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0;
+}
+
+.lehed li {
+	display: table-cell;
+	padding: 10px;
+	vertical-align: middle;
+	text-align: center;
+}
+
 
 footer{
 	bottom:0px;
